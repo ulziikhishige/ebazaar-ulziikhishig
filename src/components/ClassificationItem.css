@@ -1,0 +1,35 @@
+.classification-item{
+    background-color: #ffffff;
+    height: 130px;
+    width: 110px;
+    padding: 20px 0 0 0;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eceff1;
+    border-radius: 26px;
+}
+.classification-item:hover{
+    border: 1px solid orange;
+}
+.ci{
+    height: 50px;
+    margin-bottom: 16px;
+    padding: 4px;
+}
+.cit{
+    font-size: 00.875rem;
+    color: #78909c;
+}
+
+@media(min-width: 200px){
+    .classification-item{
+        width: 200px;
+        margin: 5px;
+    }
+}
+@media(min-width: 1281px){
+    .classification-item{
+        width: 110px;
+    }
+}

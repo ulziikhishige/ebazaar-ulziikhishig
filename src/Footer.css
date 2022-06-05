@@ -1,0 +1,43 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 32px 0;
+}
+.footer{
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    font-family: nunito;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.footer h4{
+    font-weight: 700;
+}
+.footer-column{
+    width: 33%;
+    line-height: 20px;
+}
+.footer-menu{
+    cursor: pointer;
+}
+.footer-menu p:hover{
+    color: orange;
+}
+.footer-menu h4:hover{
+    color: orange;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.copy-right{
+    width: 1280px;
+    font-family: nunito;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+}

@@ -1,0 +1,22 @@
+.supplier-container{
+    display: flex;
+    justify-content: center;
+    font-family: nunito;
+}
+.supplier-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media(min-width: 200px){
+    .supplier-row{
+        flex-direction: column;
+        margin: 20px;
+    }
+}
+@media(min-width: 1281px){
+    .supplier-row{
+        flex-direction: row;
+        margin: 0;
+    }
+}

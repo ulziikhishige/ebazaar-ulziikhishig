@@ -1,0 +1,53 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 16px 0;
+}
+.box{
+    border: 1px solid #cfd8dc;
+    border-radius: 0.5rem;
+    width: 300px;
+    color: #78909c;
+    font-size: 0.625rem;
+    font-weight: 600;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.input{
+    width: 600px;
+    height: 36px;
+    border: 1px solid #cfd8dc;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0 0 0 15px;
+    font-size: 0.75rem;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 16px;
+    position: sticky;
+    top: 0px;
+    z-index: 15165;
+    overflow-x: clip !important;
+}
+.contain{
+    height: 130px;
+}
+.tabs{
+    display: flex;
+    cursor: pointer;
+}
+.tab-item{
+    margin: 20px 0 0 30px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #546e7a
+}

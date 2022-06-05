@@ -1,0 +1,25 @@
+.container{
+    background-color: #b0bec5;
+    height: 15px;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    font-size: 11px;
+    justify-content:space-between;
+    width: 1280px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-item{
+    padding: 0 30px;
+}
+.contact-item:last-child{
+    padding: 0;
+}
+
